@@ -99,7 +99,7 @@ elif modelname == 'socbert':
 #     model_type="sarkerlab/SocBERT-base"
 
 
-tokenizer = AutoTokenizer.from_pretrained(bert_model, token='ENTER YOUR API KEY')
+tokenizer = AutoTokenizer.from_pretrained(bert_model, token='ENTER YOUR API KEY ')
 training(model_type)
 
 # python3 autoModel.py bert-base-uncased 
